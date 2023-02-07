@@ -12,7 +12,7 @@ import Paths from "../../Routes";
 function App() {
   const [isLoading, setLoading] = useState(true);
 
-  addEventListener("load", () => setLoading(false));
+  window.onload = () => setLoading(false)
 
   return (
     <BrowserRouter>

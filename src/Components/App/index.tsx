@@ -1,4 +1,4 @@
-import {useState } from "react";
+import {useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 
 import { Container, Loading } from "./styles";
@@ -12,7 +12,9 @@ import Paths from "../../Routes";
 function App() {
   const [isLoading, setLoading] = useState(true);
 
-  window.onload = () => setLoading(false)
+  useEffect(() => {
+    setLoading(false)
+  }, [])
 
   return (
     <BrowserRouter>
@@ -32,3 +34,4 @@ function App() {
 }
 
 export default App;
+

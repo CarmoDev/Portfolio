@@ -14,7 +14,6 @@ import {
 } from "./styles";
 
 import Arrow from "../../assets/icons/arrow.svg";
-import curriculo from "../../assets/download/curriculo.pdf";
 
 import { ReactComponent as Folder } from "../../assets/icons/folder.svg";
 
@@ -97,7 +96,10 @@ export function Personal() {
               </Folders>
 
               {isBioOpen && (
-                <Docs href={curriculo} download="Curriculo.pdf">
+                <Docs
+                  href="../../assets/download/curriculo.pdf"
+                  download="Curriculo.pdf"
+                >
                   <Markdown />
                   resume
                 </Docs>

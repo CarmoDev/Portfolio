@@ -26,14 +26,19 @@ export const Sections = styled.div`
 
   @media screen and (max-width: 1100px) {
     p {
-      width: 180px;
-      max-width: 48%;
+      width: 400px;
+      max-width: 60%;
+      font-size: 3em;
     }
 
     a {
       :last-of-type {
         border-bottom-right-radius: 8px;
       }
+    }
+
+    img {
+      width: 3em;
     }
   }
 

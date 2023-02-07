@@ -61,6 +61,10 @@ export const SectionTitle = styled.button`
     transform: rotate(-90deg);
     transition: 0.2s;
   }
+
+  @media screen and (max-width: 1100px) {
+    font-size: 3rem;
+  }
 `;
 
 export const SectionContent = styled.div`
@@ -87,6 +91,17 @@ export const Folders = styled.div`
   label {
     display: flex;
     align-items: center;
+  }
+
+  @media screen and (max-width: 1100px) {
+    svg {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    label {
+      font-size: 2rem;
+    }
   }
 `;
 
@@ -133,6 +148,7 @@ export const SectionIdentifier = styled.div`
     p {
       padding: 8px 12px;
       height: 70%;
+      font-size: 2rem;
     }
   }
 `;
@@ -162,7 +178,7 @@ export const ProjectContainer = styled.div`
     background-color: #011627;
   }
 
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     display: flex;
     flex-direction: column;
   }
@@ -207,7 +223,7 @@ export const Project = styled.div`
       object-fit: cover;
       right: 10px;
       top: 10px;
-      z-index: 2  00;
+      z-index: 2 00;
       background-color: #86e1f9;
       display: flex;
       padding: 4px;
@@ -252,6 +268,17 @@ export const Project = styled.div`
 
   @media screen and (max-width: 1100px) {
     align-self: center;
+
+    .title {
+      font-size: 2rem;
+      margin-top: 3%;
+    }
+
+    .viewBtn {
+      font-size: 2rem;
+      margin-left: 2%;
+    }
+
     &:last-of-type {
       margin-bottom: 20px;
     }

@@ -28,17 +28,17 @@ export const HamburguerMenu = styled.button`
   cursor: pointer;
   position: relative;
   z-index: 300;
-  width: 20px;
+  width: 5rem;
   height: 40%;
 
   &::before,
   &::after {
     content: "";
     display: inline-block;
-    height: 2px;
-    width: 20px;
+    height: .5rem;
+    width: 4rem;
     background-color: #607b96;
-    box-shadow: 0 5px #607b96, 0 -5px #607b96;
+    box-shadow: 0 15px #607b96, 0 -15px #607b96;
     border-radius: 20px;
     transition: 0.3s;
   }
@@ -73,6 +73,14 @@ export const Title = styled.div`
 
   @media screen and (max-width: 1100px) {
     margin-left: 0;
+    
+    span {
+      font-size: 3em;
+    }
+
+    svg {
+      width: 5em;
+    }
   }
 `;
 
@@ -153,7 +161,7 @@ export const OptionsList = styled.ul`
   transition: 0.4s;
 
   &.ativo {
-    font-size: 14px;
+    font-size:3rem;
     opacity: 1;
     height: 80%;
     width: 95%;

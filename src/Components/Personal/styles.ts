@@ -51,6 +51,14 @@ export const SectionTitle = styled.button`
     transform: rotate(-90deg);
     transition: 0.2s;
   }
+
+  @media screen and (max-width: 1100px) {
+    font-size: 3em;
+
+    img {
+      width: 1rem;
+    }
+  }
 `;
 
 export const SectionContent = styled.div`
@@ -96,6 +104,16 @@ export const Folders = styled.button`
   svg {
     margin: 0 8px;
   }
+
+  @media screen and (max-width: 1100px) {
+    font-size: 2em;
+    width: 3em;
+
+    svg {
+      width: 2em;
+      height: 1em;
+    }
+  }
 `;
 
 export const Docs = styled.a`
@@ -112,6 +130,15 @@ export const Docs = styled.a`
 
   svg {
     width: 12px;
+  }
+
+  @media screen and (max-width: 1100px) {
+    svg {
+      width: 1em;
+      height: 1em;
+    }
+
+    font-size: 2em;
   }
 `;
 
@@ -154,6 +181,10 @@ export const Contact = styled.a`
       background-color: #607b96;
       position: absolute;
     }
+  }
+
+  @media screen and (max-width: 1100px) {
+    font-size: 2em;
   }
 `;
 

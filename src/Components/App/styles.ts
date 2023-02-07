@@ -24,7 +24,7 @@ export const Container = styled.main`
   margin: 1.6% auto;
 
   @media screen and (max-width: 1100px) {
-    height: 98vh;
+    height: 90vh;
     justify-content: space-between;
   }
 `;

@@ -62,6 +62,10 @@ export const SectionTitle = styled.button`
     transform: rotate(-90deg);
     transition: 0.2s;
   }
+
+  @media screen and (max-width: 1100px) {
+    font-size: 3rem;
+  }
 `;
 
 export const SectionContent = styled.div`
@@ -111,6 +115,10 @@ export const Contact = styled.a`
       background-color: #607b96;
       position: absolute;
     }
+  }
+
+  @media screen and (max-width: 1100px) {
+    font-size: 2rem;
   }
 `;
 
@@ -162,7 +170,7 @@ export const SectionIdentifier = styled.div`
 
     p {
       border: none;
-      font-size: 18px;
+      font-size: 2em;
       padding: 0;
     }
   }
@@ -233,6 +241,10 @@ export const ContactInfoContainer = styled.div`
 
   @media screen and (max-width: 1100px) {
     width: 80%;
+
+    label {
+      font-size: 2em;
+    }
   }
 `;
 
@@ -248,6 +260,10 @@ export const ContactInfo = styled.input`
     border: 1px solid #607b96;
     box-shadow: 0px 0px 0px 2px rgba(96, 123, 150, 0.3);
     outline: 0;
+  }
+
+  @media screen and (max-width: 1100px) {
+    font-size: 2rem;
   }
 `;
 
@@ -293,6 +309,8 @@ export const Submit = styled.button`
   }
 
   @media screen and (max-width: 1100px) {
+    font-size: 2em;
+    padding: 20px;
     align-self: center;
   }
 `;

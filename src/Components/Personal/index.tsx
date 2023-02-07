@@ -84,7 +84,7 @@ export function Personal() {
         <section>
           <SectionTitle onClick={handlePersonalOpen}>
             <img src={Arrow} className={isPersonalOpen ? "" : "closed"} />
-            <span>personal-info</span>
+            <span>&nbsp;personal-info</span>
           </SectionTitle>
 
           {isPersonalOpen && (
@@ -144,7 +144,7 @@ export function Personal() {
             style={{ borderTop: "1px solid #1e2d3d" }}
           >
             <img src={Arrow} className={isContactOpen ? "" : "closed"} />
-            <span>contacts</span>
+            <span>&nbsp;contacts</span>
           </SectionTitle>
 
           {isContactOpen && (

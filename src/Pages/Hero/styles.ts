@@ -45,6 +45,7 @@ export const Myself = styled.div`
 
   h1 {
     font-weight: 400;
+    font-size: 30px;
   }
 
   h2 {
@@ -64,9 +65,9 @@ export const Myself = styled.div`
   }
 
   @media screen and (max-width: 1100px) {
+    h1,
     h2 {
-      font-size: 24px;
-      color: #43d9ad;
+      font-size: 3.5em;
     }
   }
 `;
@@ -74,6 +75,10 @@ export const Myself = styled.div`
 export const GameDescription = styled.div`
   .comments {
     color: #607b96;
+  }
+
+  @media screen and (max-width: 1100px) {
+    font-size: 2em;
   }
 `;
 

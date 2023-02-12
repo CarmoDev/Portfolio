@@ -83,4 +83,11 @@ export const AllProjects = [
     tag: ["React"],
     image: "https://i.postimg.cc/50KGSfH9/product.png",
   },
+  {
+    id: 13,
+    name: "Fighting Game",
+    url: "https://ninjafighting.netlify.app/",
+    tag: ["React"],
+    image: "https://i.postimg.cc/KjfFRNW1/fight.png",
+  },
 ];

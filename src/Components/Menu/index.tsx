@@ -35,27 +35,34 @@ export default function Menu() {
           <Sections>
             <OptionsList className={menuOpen}>
               <NavLink
+                onClick={() => setMenuOpen("")}
                 to={`/`}
                 className={({ isActive }) => (isActive ? "Active" : undefined)}
               >
                 <p>$ hello</p>
-              </NavLink>
+              </NavLink
+                >
 
               <NavLink
+                onClick={() => setMenuOpen("")}
                 to={"/about"}
                 className={({ isActive }) => (isActive ? "Active" : undefined)}
               >
                 <p>$ about-me</p>
-              </NavLink>
+              </NavLink
+                >
 
               <NavLink
+                onClick={() => setMenuOpen("")}
                 to={"/project"}
                 className={({ isActive }) => (isActive ? "Active" : undefined)}
               >
                 <p>$ Projects</p>
-              </NavLink>
+              </NavLink
+                >
 
               <NavLink
+                onClick={() => setMenuOpen("")}
                 to={"/contact"}
                 className={({ isActive }) => (isActive ? "Active" : undefined)}
               >

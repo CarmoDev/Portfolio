@@ -106,11 +106,12 @@ export const Folders = styled.button`
   }
 
   @media screen and (max-width: 1100px) {
-    font-size: 2em;
+    font-size: 34px;
     width: 3em;
+    gap: 12px;
 
     svg {
-      width: 2em;
+      width: 32px;
       height: 1em;
     }
   }
@@ -138,7 +139,7 @@ export const Docs = styled.a`
       height: 1em;
     }
 
-    font-size: 2em;
+    font-size: 34px;
   }
 `;
 
@@ -184,7 +185,8 @@ export const Contact = styled.a`
   }
 
   @media screen and (max-width: 1100px) {
-    font-size: 2em;
+    font-size: 34px;
+    gap: 8px;
   }
 `;
 
@@ -222,7 +224,7 @@ export const Bio = styled.div`
   color: #607b96;
   max-width: 80%;
   display: flex;
-  gap: 30px;
+  gap: 32px;
 
   p {
     line-height: 23px;
@@ -230,6 +232,8 @@ export const Bio = styled.div`
 
   @media screen and (max-width: 1100px) {
     height: fit-content;
+    font-size: 28px;
+    line-height: 50px;
   }
 `;
 
@@ -239,6 +243,5 @@ export const NumberContainer = styled.div`
 
   p {
     text-align: end;
-    line-height: 23px;
   }
 `;

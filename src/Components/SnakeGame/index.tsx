@@ -162,6 +162,7 @@ export default function SnakeGame() {
           </div>
 
           <img src={up} alt="upArrow" className="arrow" />
+          
           <div className="bottomArrows">
             <img src={left} alt="leftArrow" className="arrow" />
             <img src={down} alt="downArrow" className="arrow" />

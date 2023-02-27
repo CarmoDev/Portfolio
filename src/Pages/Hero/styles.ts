@@ -110,8 +110,8 @@ export const GithubLink = styled.p`
 `;
 
 export const Game = styled.div`
-  width: 400px;
-  height: 80%;
+  width: 500px;
+  height: 85%;
   padding: 35px;
 
   background: linear-gradient(

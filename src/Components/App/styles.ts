@@ -11,7 +11,7 @@ export const write = keyframes`
 
 export const Container = styled.main`
   width: 95dvw;
-  height: 95dvh;
+  height: 93dvh;
 
   display: flex;
   flex-direction: column;

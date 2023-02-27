@@ -43,6 +43,10 @@ export const Description = styled.div`
 export const Myself = styled.div`
   color: #e5e9f0;
 
+  p {
+    font-size: clamp(16px, 24px, 38px);
+  }
+
   h1 {
     font-weight: 400;
     font-size: 30px;

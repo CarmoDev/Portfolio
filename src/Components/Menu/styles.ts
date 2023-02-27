@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.nav`
   display: flex;
-  height: 55px;
+  height: 8dvh;
   align-items: center;
   border-bottom: 1px solid #1e2d3d;
   color: #607b96;

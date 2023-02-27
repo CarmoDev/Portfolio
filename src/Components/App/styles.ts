@@ -10,8 +10,8 @@ export const write = keyframes`
 `
 
 export const Container = styled.main`
-  width: 96%;
-  height: 93vh;
+  width: 95dvw;
+  height: 95dvh;
 
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@ export const Container = styled.main`
   margin: 1.6% auto;
 
   @media screen and (max-width: 1100px) {
-    height: 90vh;
+    height: 97dvh;
     justify-content: space-between;
   }
 `;

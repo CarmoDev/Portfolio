@@ -15,12 +15,6 @@ export const Container = styled.section`
   align-items: center;
   width: 100%;
   height: 90%;
-
-  @media screen and (max-width: 1100px) {
-    width: 80%;
-    height: 100%;
-    justify-content: space-between;
-  }
 `;
 
 export const Description = styled.div`
@@ -30,13 +24,12 @@ export const Description = styled.div`
   justify-content: space-between;
 
   @media screen and (max-width: 1100px) {
-    height: 50%;
-    justify-content: space-between;
-
     .bright {
       box-shadow: 150px 100px 200px 80px rgba(77, 91, 206, 0.7),
         -150px -100px 200px 80px rgba(67, 217, 173, 0.7);
     }
+
+    padding: 0 16px;
   }
 `;
 
@@ -44,12 +37,12 @@ export const Myself = styled.div`
   color: #e5e9f0;
 
   p {
-    font-size: clamp(16px, 24px, 38px);
+    font-size: 16px;
   }
 
   h1 {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 16px;
   }
 
   h2 {
@@ -62,27 +55,20 @@ export const Myself = styled.div`
     color: transparent;
 
     font-weight: 600;
-    font-size: 30px;
+    font-size: 24px;
     white-space: nowrap;
 
     animation: ${background_change} 3s linear infinite;
   }
 
   @media screen and (max-width: 1100px) {
-    h1,
-    h2 {
-      font-size: 3.5em;
-    }
+    z-index: 10;
   }
 `;
 
 export const GameDescription = styled.div`
   .comments {
     color: #607b96;
-  }
-
-  @media screen and (max-width: 1100px) {
-    font-size: 2em;
   }
 `;
 

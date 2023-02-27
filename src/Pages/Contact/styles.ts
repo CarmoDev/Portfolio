@@ -62,10 +62,6 @@ export const SectionTitle = styled.button`
     transform: rotate(-90deg);
     transition: 0.2s;
   }
-
-  @media screen and (max-width: 1100px) {
-    font-size: 3rem;
-  }
 `;
 
 export const SectionContent = styled.div`
@@ -115,10 +111,6 @@ export const Contact = styled.a`
       background-color: #607b96;
       position: absolute;
     }
-  }
-
-  @media screen and (max-width: 1100px) {
-    font-size: 2rem;
   }
 `;
 
@@ -170,7 +162,6 @@ export const SectionIdentifier = styled.div`
 
     p {
       border: none;
-      font-size: 2em;
       padding: 0;
     }
   }
@@ -197,7 +188,7 @@ export const ContactContainer = styled.form`
     width: 60%;
 
     @media screen and (max-width: 1100px) {
-      width: 90%;
+      width: 80%;
     }
   }
 
@@ -238,14 +229,6 @@ export const ContactInfoContainer = styled.div`
   color: #607b96;
   font-size: 16px;
   width: 100%;
-
-  @media screen and (max-width: 1100px) {
-    width: 80%;
-
-    label {
-      font-size: 2em;
-    }
-  }
 `;
 
 export const ContactInfo = styled.input`
@@ -260,10 +243,6 @@ export const ContactInfo = styled.input`
     border: 1px solid #607b96;
     box-shadow: 0px 0px 0px 2px rgba(96, 123, 150, 0.3);
     outline: 0;
-  }
-
-  @media screen and (max-width: 1100px) {
-    font-size: 2rem;
   }
 `;
 
@@ -309,8 +288,6 @@ export const Submit = styled.button`
   }
 
   @media screen and (max-width: 1100px) {
-    font-size: 2em;
-    padding: 20px;
     align-self: center;
   }
 `;
@@ -347,18 +324,6 @@ export const Submitted = styled.div`
     background-color: #1e2d3d;
     right: 0;
     top: 0;
-  }
-
-  @media screen and (max-width: 1100px) {
-    align-self: flex-end;
-    justify-content: flex-end;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-
-    ::after {
-      display: none;
-    }
   }
 `;
 

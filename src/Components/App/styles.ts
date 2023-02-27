@@ -24,8 +24,9 @@ export const Container = styled.main`
   margin: 1.6% auto;
 
   @media screen and (max-width: 1100px) {
-    height: 97dvh;
+    height: 98dvh;
     justify-content: space-between;
+    overflow: hidden;
   }
 `;
 

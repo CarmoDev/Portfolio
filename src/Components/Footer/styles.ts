@@ -24,7 +24,7 @@ export const Sections = styled.div`
   max-width: 100%;
   text-align: center;
 
-  @media screen and (max-width: 1100px) {
+  /* @media screen and (max-width: 1100px) {
     p {
       width: 400px;
       max-width: 60%;
@@ -40,7 +40,7 @@ export const Sections = styled.div`
     img {
       width: 3em;
     }
-  }
+  } */
 
   a {
     height: 100%;

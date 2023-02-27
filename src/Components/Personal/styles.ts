@@ -51,14 +51,6 @@ export const SectionTitle = styled.button`
     transform: rotate(-90deg);
     transition: 0.2s;
   }
-
-  @media screen and (max-width: 1100px) {
-    font-size: 3em;
-
-    img {
-      width: 1rem;
-    }
-  }
 `;
 
 export const SectionContent = styled.div`
@@ -104,17 +96,6 @@ export const Folders = styled.button`
   svg {
     margin: 0 8px;
   }
-
-  @media screen and (max-width: 1100px) {
-    font-size: 34px;
-    width: 3em;
-    gap: 12px;
-
-    svg {
-      width: 32px;
-      height: 1em;
-    }
-  }
 `;
 
 export const Docs = styled.a`
@@ -131,15 +112,6 @@ export const Docs = styled.a`
 
   svg {
     width: 12px;
-  }
-
-  @media screen and (max-width: 1100px) {
-    svg {
-      width: 1em;
-      height: 1em;
-    }
-
-    font-size: 34px;
   }
 `;
 
@@ -183,11 +155,6 @@ export const Contact = styled.a`
       position: absolute;
     }
   }
-
-  @media screen and (max-width: 1100px) {
-    font-size: 34px;
-    gap: 8px;
-  }
 `;
 
 export const Content = styled.div`
@@ -228,12 +195,6 @@ export const Bio = styled.div`
 
   p {
     line-height: 23px;
-  }
-
-  @media screen and (max-width: 1100px) {
-    height: fit-content;
-    font-size: 28px;
-    line-height: 50px;
   }
 `;
 

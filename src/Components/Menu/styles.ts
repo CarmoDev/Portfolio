@@ -11,11 +11,6 @@ export const Container = styled.nav`
   a:hover {
     cursor: pointer;
   }
-
-  @media screen and (max-width: 1100px) {
-    padding-right: 2%;
-    padding-left: 2%;
-  }
 `;
 
 export const HamburguerMenu = styled.button`
@@ -28,17 +23,18 @@ export const HamburguerMenu = styled.button`
   cursor: pointer;
   position: relative;
   z-index: 300;
-  width: 5rem;
-  height: 40%;
+  width: 30px;
+  height: 20px;
+  margin-right: 8px;
 
   &::before,
   &::after {
     content: "";
     display: inline-block;
-    height: .5rem;
-    width: 4rem;
+    height:  4px;
+    width: 30px;
     background-color: #607b96;
-    box-shadow: 0 15px #607b96, 0 -15px #607b96;
+    box-shadow: 0 6px #607b96, 0 -6px #607b96;
     border-radius: 20px;
     transition: 0.3s;
   }
@@ -71,7 +67,7 @@ export const Title = styled.div`
     font-weight: bold;
   }
 
-  @media screen and (max-width: 1100px) {
+  /* @media screen and (max-width: 1100px) {
     margin-left: 0;
     
     span {
@@ -81,7 +77,7 @@ export const Title = styled.div`
     svg {
       width: 5em;
     }
-  }
+  } */
 `;
 
 export const Sections = styled.div`
@@ -161,7 +157,7 @@ export const OptionsList = styled.ul`
   transition: 0.4s;
 
   &.ativo {
-    font-size:3rem;
+    font-size: 12px;
     opacity: 1;
     height: 80%;
     width: 95%;

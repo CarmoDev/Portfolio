@@ -21,7 +21,7 @@ export default function Footer() {
       </Sections>
 
       {window.screen.width >= 780 && (
-        <ContactMe href="">
+        <ContactMe href="https://github.com/CarmoDev" target="_blank">
           @Carmo.Dev
           <img src={GithubIcon} alt="Github" />
         </ContactMe>

@@ -30,7 +30,7 @@ export default function Menu() {
 
       {window.screen.width <= 1100 ? (
         <div>
-          <HamburguerMenu onClick={handleMenuOpen} className={menuOpen} />
+          <HamburguerMenu onClick={handleMenuOpen} className={menuOpen} name="Navigation menu" />
 
           <Sections>
             <OptionsList className={menuOpen}>

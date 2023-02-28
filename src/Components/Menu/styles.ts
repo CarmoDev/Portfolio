@@ -66,18 +66,6 @@ export const Title = styled.div`
     font-size: 24px;
     font-weight: bold;
   }
-
-  /* @media screen and (max-width: 1100px) {
-    margin-left: 0;
-    
-    span {
-      font-size: 3em;
-    }
-
-    svg {
-      width: 5em;
-    }
-  } */
 `;
 
 export const Sections = styled.div`
@@ -134,7 +122,7 @@ export const ContactMe = styled.div`
   }
 `;
 
-export const OptionsList = styled.ul`
+export const OptionsList = styled.div`
   height: 0;
   width: 0;
   background-color: #011627;

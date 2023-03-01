@@ -30,7 +30,7 @@ export default function Menu() {
 
       {window.screen.width <= 1100 ? (
         <div>
-          <HamburguerMenu onClick={handleMenuOpen} className={menuOpen} name="Navigation menu" />
+          <HamburguerMenu onClick={handleMenuOpen} className={menuOpen} aria-label="Navigation" />
 
           <Sections>
             <OptionsList className={menuOpen}>

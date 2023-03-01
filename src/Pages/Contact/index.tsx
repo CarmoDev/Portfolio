@@ -44,7 +44,7 @@ export default function Contacts() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [number, setNumber] = useState(0);
-  const [submitted, setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState(true);
 
   const codeRef = useRef<HTMLDivElement | null>(null);
 

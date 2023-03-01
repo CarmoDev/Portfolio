@@ -21,7 +21,7 @@ export const Container = styled.main`
 
   @media screen and (max-width: 1100px) {
     flex-direction: column;
-    overflow-y: scroll;
+    overflow-y: scroll; 
   }
 `;
 
@@ -301,6 +301,7 @@ export const Submitted = styled.div`
   height: 90%;
   position: relative;
   gap: 20px;
+  padding: 16px;
 
   div {
     text-align: center;
@@ -324,6 +325,10 @@ export const Submitted = styled.div`
     background-color: #1e2d3d;
     right: 0;
     top: 0;
+  }
+
+  @media screen and (max-width: 1100px) {
+    width: 100%;
   }
 `;
 

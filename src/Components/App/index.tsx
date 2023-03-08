@@ -17,7 +17,7 @@ function App() {
   }, [])
 
   return (
-    <BrowserRouter basename="carmodev.vercel.app">
+    <BrowserRouter>
       {isLoading ? ( 
         <Loading>
           <Logo/>

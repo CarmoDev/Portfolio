@@ -4,12 +4,16 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
 }
 
 .game {
   width: 50%;
-  height: 400px;
-  max-height: 80%;
+  height: 90%;
+  max-height: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,6 +72,7 @@
 
 .gameInformation {
   color: #fff;
+  height: 90%;
   margin: 10px 5px;
   display: flex;
   flex-direction: column;

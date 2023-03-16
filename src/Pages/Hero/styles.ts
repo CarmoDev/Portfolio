@@ -113,13 +113,16 @@ export const Game = styled.div`
   width: 500px;
   height: 85%;
   padding: 35px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
   background: linear-gradient(
     150.26deg,
     rgba(23, 85, 83, 0.7),
     rgba(67, 217, 173, 0.5)
-  );
-  border: 1px solid #0c1616;
+    );
+    border: 1px solid #0c1616;
 
   box-shadow: 10px 30px 40px rgba(77, 91, 206, 0.4),
     -15px -30px 40px rgba(67, 217, 173, 0.4);
